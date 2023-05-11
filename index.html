@@ -1,28 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cr7ston Portfolio</title>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Cr7ston Portfolio</title>
 </head>
+
 <body>
-     <header>
-        <h1>Cr7ston Portfolio</h1>
-     </header>
+   <header>
+      <img class="circle" src="./imgFondo/DSC_1289.JPG" alt="logo large" height="100" width="120">
+      <h1>Cr7ston Portfolio</h1>
+      <hr />
+      <h2>Web Developer</h2>
+      <video autoplay loop muted>
+         <source src="./Videos/Visual Loops Compilation with Energy G4 de fondo Chill Video.mp4">
+      </video>
+   </header>
 
-     <nav></nav>
+   <nav id="navbar" class="open">
+      <div>
+         <a href="/">
+            <img class="circle" src="./imgFondo/Myself/DSC_0478.JPG" alt="small logo" height="100" width="120">
+            <span>Cristian Gonzalez <small>Web developer</small></span>
+         </a>
+         <button id="beer">🍻</button>
 
-     <main>
-        <aside></aside>
+      </div>
+      <ul>
+         <li> <a href="#portfolio">Portfolio</a> </li>
+         <li><a href="#skillset">Skillset</a> </li>
+         <li><a href="#experience">Experience</a> </li>
+         <li><a href="#contact">Contact</a> </li>
+      </ul>
+   </nav>
 
-        <section></section>
-        <section></section>
-        <section></section>
+   <main>
+      <aside></aside>
 
-     </main>
+      <section id="portfolio">
+         <h3>Portfolio</h3>
+         <div>
+            <button>
+               <img src="./ImgPortfolio/FitSpaceG.gif" alt="">
+               <h4>FitSpace</h4>
+            </button>
+            <button>
+               <img src="./ImgPortfolio/SuperStockMagic.gif" alt="">
+               <h4>Super Stock Magic</h4>
+            </button>
+            <button>
+               <img src="./ImgPortfolio/WeatherD.gif" alt="">
+               <h4>Weather Dashboard</h4>
+            </button>
+         </div>
+      </section>
+      <section id="skillset" class="even">
+         <h3>Skillset</h3>
+         <hr>
+         <div>
+            <div>
+               <img src="./Experience_Logos/icons8-html-5.svg" alt="html">
+               <span class="tooltip">HTML</span>
+            </div>
+            <div>
+               <img src="./Experience_Logos/icons8-css3.svg" alt="html">
+               <span class="tooltip">CSS</span>
+            </div>
+            <div>
+               <img src="./Experience_Logos/icons8-javascript.svg" alt="html">
+               <span class="tooltip">Javascript</span>
+            </div>
+            <div>
+               <img src="./Experience_Logos/icons8-git.svg" alt="html">
+               <span class="tooltip">GIT</span>
+            </div>
+         </div>
+      </section>
+      <section id="experience">
+         <h3>Experience</h3>
+         <hr>
+         <div>
+            <a><img src="./Experience_Logos/Jobs/Impact.jpeg" alt="Impact">
+               <h4>Impact Display Group</h4>
+            </a>
+            <a><img src="./Experience_Logos/Jobs/kulite.jpeg" alt="Kulite">
+               <h4>Kulite</h4>
+            </a>
+            <a><img src="./Experience_Logos/Jobs/MCTC.jpg" alt="MCTC">
+               <h4>Minneapolis College</h4>
+            </a>
+         </div>
 
-     <footer></footer>
-    
+      </section>
+
+      <section id="contact" class="even">
+         <h3>Contact</h3>
+         <hr>
+         <form action="https://formspree.io/f/mjvdkead" method="POST">
+            <label>
+               Your email:
+               <input type="email" name="email">
+            </label>
+            <label>
+               Your message:
+               <textarea name="message"></textarea>
+            </label>
+            <!-- your other form fields go here -->
+            <button type="submit">Send</button>
+         </form>
+         
+         <nav id="social-media">
+            <a href="https://www.linkedin.com/in/cristian-gonzalez-romero-7566571b0/"> 
+               <img src="./Experience_Logos/social/linkedin.png" alt="">
+            </a>
+            <a href="https://github.com/cr7st74n"> 
+               <img src="./Experience_Logos/social/github.png" alt="">
+            </a>
+            <a href=""> 
+               <img src="" alt="">
+            </a>
+
+         </nav>
+      </section>
+
+   </main>
+
+   <footer>
+      <small>Developed anb designed by Cristian Gonzalez. 2023. All rights reserved</small>
+   </footer>
+
 </body>
+
 </html>
